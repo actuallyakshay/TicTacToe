@@ -23,7 +23,7 @@ export default function Game() {
 
   const handleClick = (value) => {
     let s = [...val];
-    s[value] = isX ? "X" : "o";
+    s[value] = isX ? "X" : "O";
     setVal(s);
     setX(!isX);
   };
@@ -67,10 +67,24 @@ export default function Game() {
       alignItems="center"
       flexDirection="column"
     >
-      <Heading mt="10" fontFamily="Gemunu Libre" letterSpacing="7px" as="i" color='white'>
+      <Heading
+        mt="10"
+        fontFamily="Gemunu Libre"
+        letterSpacing="7px"
+        as="i"
+        color="white"
+      >
         {" "}
         Tic Tac Toe
       </Heading>
+      <Text
+        fontFamily="Gemunu Libre"
+        letterSpacing="3px"
+        color="teal.300"
+        fontWeight={"600"}
+      >
+        Player {!isX ? "O" : "X"} turn
+      </Text>
       <Grid id="board" mt="10" overflow="hidden">
         {arr.map((elem, i) => {
           return (
