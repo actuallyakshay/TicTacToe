@@ -1,24 +1,16 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Game from './Component/Game';
+import { Box } from "@chakra-ui/react"
+
+//   background-color: #282c34;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box bg='#1a2336' h='100vh' w='100vw'>
+
+      <Game />
+    </Box>
   );
 }
 
