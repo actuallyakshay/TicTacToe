@@ -67,7 +67,7 @@ export default function Game() {
       alignItems="center"
       flexDirection="column"
     >
-      <Heading mt="10" fontFamily="Gemunu Libre" letterSpacing="7px" as="i">
+      <Heading mt="10" fontFamily="Gemunu Libre" letterSpacing="7px" as="i" color='white'>
         {" "}
         Tic Tac Toe
       </Heading>
