@@ -9,7 +9,7 @@ Tic-Tac-Toe vercel link : https://tictactoe-gamma-five.vercel.app/
 
 
 
-## landing Page
+## The user-Interface of the game
 
 ![App Screenshot](https://i.ibb.co/ZWnT7LS/Screenshot-257.png)
 
