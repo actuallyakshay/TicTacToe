@@ -5,7 +5,7 @@ A Nostalgic game named as Tic-Tac-Toe in which Xs and Os an or Irish English) is
 
 Tic-tac-toe is played on a three-by-three grid by two players, who alternately place the marks X and O in one of the nine spaces in the grid.
 ## 🔗 Live Deployed URL
-Tic-Tac-Toe vercel link : https://vercel.com/actuallyakshay/tictactoe
+Tic-Tac-Toe vercel link : https://tictactoe-gamma-five.vercel.app/
 
 
 
